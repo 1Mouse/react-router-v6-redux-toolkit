@@ -1,9 +1,22 @@
-import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Home } from "./pages/home";
+import { PostDetails } from "./pages/post-details";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/post-details/:id",
+    element: <PostDetails />,
+  },
+]);
 
 function App() {
   return (
     <>
-      <div className='bg-slate-700'>hi there</div>
+      <RouterProvider router={router} />
     </>
   );
 }
