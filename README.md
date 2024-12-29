@@ -28,6 +28,11 @@
 - zod: to validate api response.
 - pnpm
 
+## Env
+please create a `.env` file containing
+> VITE_API_URL="https://jsonplaceholder.typicode.com/"
+
+and for production use the same but name it `.env.production`
 
 ## Features:
 - Showing posts with searching and filtering.
