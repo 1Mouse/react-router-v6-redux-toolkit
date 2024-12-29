@@ -34,4 +34,4 @@
 - Sorting by post title
 - Pagination with a go to certain page to enhance user experience.
 - Loading spinners, handle errors and empty state.
-- Post details paga
+- Post details page
